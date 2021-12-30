@@ -1,2 +1,24 @@
 <h1>index.html</h1>
 <img src="multiSpirelLoop.svg"/>
+
+<!-- HTML image tag with 1px x 1px transparent GIF  -->
+
+<img alt="Transparent GIF" class="svg-icon" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+
+
+<!-- CSS code  -->
+
+img.svg-icon {
+	width: 100px;
+	height: 100px;	
+	background: #fff url('images/svg-icon.png') 8px 8px no-repeat;
+	background-image: -webkit-linear-gradient(transparent, transparent), url('images/svg-icon.svg');
+	background-image: linear-gradient(transparent, transparent), url('multiSpirelLoop.svg');
+}
+
+
+<!-- Commenting the techinique:
+The 1px transparent GIF creates a "window" to which the background image will appear
+The first background property in CSS defines the default compatible image (png)
+The next two background properties uses the background-image with gradients that are supported in modern browsers
+  -->
