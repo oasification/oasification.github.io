@@ -85,7 +85,7 @@
  <use  href="#p" stroke="#c33" stroke-width="46"/>
  <use  href="#p" stroke="#7f7" stroke-width="24"/>
 <circle r="30" style="fill:#ff0;stroke:#55f;stroke-width:10;">
-    <animateMotion dur="25s" repeatCount="indefinite">
+    <animateMotion dur="15s" repeatCount="indefinite">
         <mpath href="#p"/></animateMotion></circle>
 <text>
   <textPath xlink:href="#p"><tspan id="ts" dy="0" font-size="25"
