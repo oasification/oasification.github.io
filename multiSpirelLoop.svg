@@ -5,7 +5,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"
     "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
 <svg width="605" height="680" style="Xborder:1px solid #000;"
-    viewBox="100 100 100 100"
+    viewBox="0 0 605 680"
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
     onclick="top.location.reload();"><path id="p" fill="none"
